@@ -29,6 +29,7 @@ livedata = "2.8.6"
 timber = "5.0.1"
 hdodenhof = "3.1.0"
 espressoContrib = "3.6.1"
+chipNavigation = "1.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
