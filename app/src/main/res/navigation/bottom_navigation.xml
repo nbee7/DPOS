@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.techtest.dpos.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.techtest.dpos.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.techtest.dpos.ui.setting.SettingFragment"
+        tools:layout="@layout/fragment_setting">
+    </fragment>
+</navigation>
